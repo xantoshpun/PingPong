@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong Game JavaScript</title>
+    <style>
+        body{
+            background-color: dimgray;
+            text-align: center;
+        }
+        
+        #pong{
+            border: 5px solid #FFF;
+            position: absolute;
+            margin :auto;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+        }
+        #you{
+            position: absolute;
+            margin :auto;
+            top:20%;
+            right:0;
+            left:-18%;
+            bottom:0;
+        }
+        #cpu{
+            position: absolute;
+            margin :auto;
+            top:20%;
+            right:0;
+            left:23%;
+            bottom:0;
+        }
+    </style>
+</head>
+<body>
+    <h1>PING PONG</h1>
+    <H4>The first Arcade game in video game history.</H4>
+    <h4>Developed by Humendra Pun</h4>
+    <h2 id="you">You</h2>
+    <h2 id="cpu">CPU</h2>
+    <canvas id="pong" width="800" height="500"></canvas>
+    <script src="pong.js"></script>
+
+</body>
+</html>
